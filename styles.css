@@ -3293,3 +3293,7 @@ body {
         transform: scaleX(-1);
     }
 }
+
+.venue-block[hidden] {
+    display: none;
+}
