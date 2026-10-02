@@ -3318,3 +3318,26 @@ body {
     flex: 0 1 auto;
     min-height: 0;
 }
+
+.lead-date,
+.lead-venue {
+    display: block;
+}
+
+.lead-date {
+    margin-top: 0.5rem;
+    color: var(--ink-red);
+    font-family: var(--font-script);
+    font-size: clamp(2.6rem, 11vw, 3.6rem);
+    line-height: 1.05;
+}
+
+.lead-venue {
+    color: var(--line-strong);
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 5.4vw, 1.8rem);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
