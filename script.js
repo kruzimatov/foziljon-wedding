@@ -7,7 +7,7 @@ const languageButtons = document.querySelectorAll(".language-option");
 const musicToggleBtn = document.getElementById("musicToggleBtn");
 const backgroundMusic = document.getElementById("backgroundMusic");
 
-const targetWeddingDate = new Date("2026-10-26T19:00:00+05:00").getTime();
+const targetWeddingDate = new Date("2026-10-26T18:00:00+05:00").getTime();
 const OPENING_DURATION_MS = 1000;
 const DEFAULT_LANGUAGE = "uz";
 const LANGUAGE_STORAGE_KEY = "weddingInvitationLanguage";
@@ -50,7 +50,7 @@ const LOCALES = {
         weekdaySun: "ВС",
         locationTitle: "Адрес:",
         venueName: "Ресторан «Чарогон»",
-        venueTime: "Начало в 19:00",
+        venueTime: "Начало в 18:00",
         venueAddress: "г. Ташкент, улица Кукча Дарвоза",
         venueLandmark: "",
         mapLinkYandex: "Яндекс Карты",
@@ -103,7 +103,7 @@ const LOCALES = {
         weekdaySun: "YA",
         locationTitle: "Manzil:",
         venueName: "Charog'on restorani",
-        venueTime: "Soat 19:00 da",
+        venueTime: "Soat 18:00 da",
         venueAddress: "Toshkent sh., Ko'kcha Darvoza ko'chasi",
         venueLandmark: "",
         mapLinkYandex: "Yandex xaritasi",
@@ -153,7 +153,7 @@ const LOCALES = {
         weekdaySun: "Su",
         locationTitle: "Address:",
         venueName: "Charog'on Restaurant",
-        venueTime: "Starts at 7:00 PM",
+        venueTime: "Starts at 6:00 PM",
         venueAddress: "Tashkent, Kokcha Darvoza street",
         venueLandmark: "",
         mapLinkYandex: "Yandex Maps",
